@@ -107,7 +107,7 @@ Content-Type: application/json
 GET http://localhost:8080/ORDER-SERVICE/orders/1
 ```
 
-<img width="1145" height="735" alt="orderservice" src="https://github.com/user-attachments/assets/54651143-b820-4b4d-acd8-7ae2064261ed" />
+<img width="1145" height="792" alt="image" src="https://github.com/user-attachments/assets/17bc66eb-e153-48c3-8948-feda65db5a43" />
 
 
 ---
@@ -119,11 +119,11 @@ GET http://localhost:8080/ORDER-SERVICE/orders/999
 ```
 
 
-```
+
 
 <img width="1110" height="746" alt="image" src="https://github.com/user-attachments/assets/3f6a95e0-a00d-4727-9267-59efd7a5925d" />
 
-```
+
 ---
 
 ## Inter-Service Communication (OpenFeign)
