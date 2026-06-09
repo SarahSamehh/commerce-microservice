@@ -9,7 +9,7 @@ A microservices-based backend system built with Spring Boot and Spring Cloud, si
 ```
 Client
   ↓
-API Gateway (port 8085)        ← single entry point
+API Gateway (port 8080)        ← single entry point
   ↓
 Eureka Server (port 8761)      ← service discovery
   ↓
@@ -33,7 +33,7 @@ Service registry. All microservices register here on startup so they can discove
 
 ---
 
-### API Gateway — `port 8085`
+### API Gateway — `port 8080`
 Single entry point for all external requests. Routes to the correct service using Eureka service names.
 
 The gateway supports two routing styles:
