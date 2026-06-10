@@ -2,7 +2,7 @@ FROM eclipse-temurin:21-jdk
 
 WORKDIR /app
 
-COPY target/eureka-server.jar app.jar
+COPY target/*.jar app.jar
 
 EXPOSE 8761
 
